@@ -9,18 +9,17 @@ public class Children {
         this.number = number;
     }
 
-    public Children(String name, IceCream iceCream, int number) {
-        this.name = name;
-        this.iceCream = iceCream;
-        this.number = number;
-    }
-
     public Children(String name, int number, IceCream iceCream) {
+        this.name = name;
+        this.number = number;
+        this.iceCream = iceCream;
 
     }
+
     private String name;
     private IceCream iceCream;
     private int number;
+
 
     public String getName() {
         return name;
@@ -38,7 +37,7 @@ public class Children {
         this.number = number;
     }
 
-    public void eat(String name){
-        System.out.println(this.name + "ест мороженое " + name);
+    public void eat(String name) {
+            System.out.println(this.name + "ест мороженое " + name);
+        }
     }
-}
